@@ -18,13 +18,6 @@ public class Home_Script : MonoBehaviour{
 
 
     public void Play(){
-
-        // 1-6     = Aritmatik
-        // 7-10    = Logika 
-        // 11-15   = Percabangan
-        // 16-19   = Pengulangan
-
-        PlayerPrefs.SetInt("Level", 6); //debugging
         
         if(PlayerPrefs.GetInt("Level") == 0){
             PlayerPrefs.SetInt("Level", 1);

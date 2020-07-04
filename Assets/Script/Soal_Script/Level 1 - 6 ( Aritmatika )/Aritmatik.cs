@@ -68,7 +68,7 @@ public class Aritmatik : MonoBehaviour{
 
         } else {
 
-            Failed_Script.instance.Failed();
+            Failed_Aritmatik_Script.instance.Failed();
 
         }
         
